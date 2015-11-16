@@ -20,13 +20,19 @@ body {
 
 
 img {
-	border-radius: 4em;
-	width: 8em;
+	border-radius: 50%;
+	width: 50%;
 }
 
 
 li {
 	display: inline-block;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 50%;
+    /*height: 50%;*/
 }
 
 nav {
