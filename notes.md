@@ -1,0 +1,5 @@
+`http://paperjs.org/examples/spiral-raster/`: spiral for profile image  
+`http://svgjs.com/`: change header  
+`https://www.talater.com/annyang/`: voice recognition  
+`http://www.checkman.io/please/`: change background color text  
+`http://subtlepatterns.com/`: background font  

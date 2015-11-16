@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+body {
+	font-size: 12px;
+	margin: 1.5em auto;
+	text-align: center;
+}
+
+
+img {
+	border-radius: 4em;
+	width: 8em;
+}
+
+
+li {
+	display: inline-block;
+}
+
+nav {
+	border: 2px green solid;
+}
+
+.char1 {
+	color: red;
+}
+
+.char6 {
+	color: red;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
