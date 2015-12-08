@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 50%;
+}
+
+body {
+	font-size: 12px;
+	margin: 1.5em auto;
+	text-align: center;
+}
+
+img {
+	border-radius: 50%;
+	width: 50%;
+}
+
+
+li {
+	display: inline-block;
+}
+
+nav {
+}
+
+.char1 {
+	color: red;
+}
+
+.char6 {
+	color: red;
+}
+
+
+
+
