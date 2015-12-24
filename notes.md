@@ -1,9 +1,5 @@
-Background image
-Section
-Easing
+
 Callbacks
-Vertical Navigation Dots
-Horizontal Navigation Dots
 Apple iphone demo
 airplane.js
 
