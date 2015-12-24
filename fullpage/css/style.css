@@ -34,8 +34,10 @@ div {
 }
 
 .about {
-	background: url("../images/seattle2_2000.jpeg");
-	background-size: cover;
+	/*background: url("../images/seattle2_2000.jpeg");*/
+	background: url("http://princevega.com/wp-content/uploads/2015/09/Under-Construction.jpg") no-repeat;
+	background-position: center;
+	/*background-size: cover;*/
 }
 
 .contact {
