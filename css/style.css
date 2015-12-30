@@ -21,8 +21,13 @@ body {
 h1{
 	color: #6279FF;
 	font-family: 'Devonshire', cursive;
-	/*font-family: 'Grand Hotel', cursive;*/
+	font-size: 8em;
+}
+
+h3 {
+	font-family: 'Devonshire', cursive;
 	font-size: 5em;
+	margin-bottom: 1em;
 }
 
 a {
@@ -34,10 +39,10 @@ div {
 }
 
 .about {
-	/*background: url("../images/seattle2_2000.jpeg");*/
-	background: url("http://princevega.com/wp-content/uploads/2015/09/Under-Construction.jpg") no-repeat;
-	background-position: center;
-	/*background-size: cover;*/
+	background: url("../images/seattle2_2000.jpeg");
+	background-size: cover;
+	/*background: url("http://princevega.com/wp-content/uploads/2015/09/Under-Construction.jpg") no-repeat;*/
+	/*background-position: center;*/
 }
 
 .contact {
@@ -48,4 +53,17 @@ div {
 .project {
 	background: url("../images/sea1_2000.jpeg");
 	background-size: cover;
+}
+
+.project_left {
+	border: red 2px solid;
+	float: left;
+	margin: 0 0 20em 5em;
+	width: 45%;
+}
+
+.project_right {
+	border: green 2px solid;
+	float: left;
+	width: 45%;
 }
