@@ -3,29 +3,29 @@
 <head>
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/examples.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- fullpage.js -->
 	
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<script src="https://cosde.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.5/vendors/jquery.slimscroll.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				// menu: '#menu',
 				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
 				scrollingSpeed: 700,
+				sectionsColor: ['#8FB98B', '#DE564B', '#EAE1C0'],
+				slidesNavigation: true,
+				// menu: '#menu',
 				// sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
 				// anchors: ['firstPage', 'secondPage', '3rdPage'],
 				// navigation: true,
 				// navigationPosition: 'right',
 				// navigationTooltips: ['First page', 'Second page', 'Third page'],
-				sectionsColor: ['#8FB98B', '#DE564B', '#EAE1C0'],
-				slidesNavigation: true,
 
 			});
 		});
@@ -44,37 +44,77 @@
 	<div id="fullpage">
 
 	    <div class="about section" id="section0">
-	    	<h1 id="aboutH1">Welcome to Andy Pham page</h1>
+	    	<h1 id="about_h1">Welcome to Andy Pham page</h1>
 	    </div>
 	    <div class="project section" id="section1">
 	    	<h1 id="projectH1">Projects</h1>
 	    	<div class="slide"> 
 	    		<h3>Blackjack</h3>
+		    		<div class="project_left clearfix">
+		    			<img id="bj_img" alt="Blackjack project" src="images/blackjack.png" />
+		    		</div>
+
+		    		<div class="project_right clearfix">
+			    		<p>Blackjack was built in one week using jQuery, JavaScript, CSS3, HTML5, Sweet Alert, Bootstrap, and Google Font.</p> 
+			    		<p>The hardest of the project was an Ace could be 1 or 11 depend on the situation. Figured out the logic for the Ace was the most rewarding of this project.</p>
+			    		<p>My first project confirmed that this job is what I have been looking for. Solving problem after another was excited and rewarding.</p>
+		    		</div>
+ 			</div>
+
+	    	<div class="slide"> 
+	    		<h3>Calories counter</h3>
+	    		<div class="project_left clearfix">
+	    			<img id="cc_img" src="images/calories_counter.png" alt="Calories counter" />
+	    		</div>
+
+	    		<div class="project_right clearfix">
+		    		<p>Calories counter lets users set calories goal and keep track of their calories intake. The app was built using Node, Express, PostgreSQL, SQL, jQuery, JavaScript, Bootstrap, CSS3, HTML5, Font Awesome and Google Font. User searches for food and . The app will calculate all nutrients based on USDA API. This was my first full-stack app. Starting an app from just an idea to a fully funtioning app just in one week was the best experience I ever had.</p>
+	    		</div>
+
+	    	</div>
+
+	    	<div class="slide"> 
+	    		<h3>ParkIt</h3>
 	    		<div class="project_left clearfix">
 	    			<img src="images/test_img.png" width="200" />
 	    		</div>
 
 	    		<div class="project_right clearfix">
-		    		<p>I wanted to create </p>
+		    		<p></p>
+	    		</div>
+	    	</div>
+
+	    	<div class="slide"> 
+	    		<h3>Real Estate Game</h3>
+	    		<div class="project_left clearfix">
+	    			<img src="images/test_img.png" width="200" />
 	    		</div>
 
- 			</div>
-
-	    	<div class="slide"> 
-	    		<h3>Project 2</h3>
-	    	</div>
-
-	    	<div class="slide"> 
-	    		<h3>Project 3</h3>
-	    	</div>
-
-	    	<div class="slide"> 
-	    		<h3>Project 4</h3>
+	    		<div class="project_right clearfix">
+		    		<p></p>
+	    		</div>
 	    	</div>
 	    </div>
 
 	    <div class="contact section" id="section2">
-	    	<h1 id-"contactH1">Contact me</h1>
+	    	<h1 id-"contact_h1">Contact me</h1>
+	    	<div id ="contact_left">		    	
+		    	<div id="contact_img">
+		    	</div>
+		    	<div id="contact_info">
+			    	<a href='https://www.facebook.com/profile.php?id=9219530'><i class="fa fa-facebook-square fa-2x"></i></a>
+					<a href='https://www.linkedin.com/in/andyphamonline'><i class="fa fa-linkedin-square fa-2x"></i></a>
+					<a href='mailto:andyphamonline@gmail.com'><i class="fa fa-envelope fa-2x"></i></a>
+				</div>
+			</div>
+	    	<div id="contact_right" class="clearfix">
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	    	</div>
 	    </div>
 	</div>
 

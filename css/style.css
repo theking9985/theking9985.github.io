@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Devonshire);
-@import url(https://fonts.googleapis.com/css?family=Grand+Hotel);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
@@ -19,30 +21,39 @@ body {
 
 
 h1{
-	color: #6279FF;
+	color: #FF704E;
 	font-family: 'Devonshire', cursive;
 	font-size: 8em;
 }
 
 h3 {
-	font-family: 'Devonshire', cursive;
+	color: #FFED27;
+	font-family: 'Special Elite', cursive;
 	font-size: 5em;
-	margin-bottom: 1em;
+	position: relative;
+	top: -6%;
+}
+
+i {
+	color: #FF704E;
+	margin: .1em;
 }
 
 a {
 	color: red;
 }
 
-div {
-	
+p {
+	color: #E9EAED;
+	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	text-align: justify;
 }
 
 .about {
 	background: url("../images/seattle2_2000.jpeg");
 	background-size: cover;
-	/*background: url("http://princevega.com/wp-content/uploads/2015/09/Under-Construction.jpg") no-repeat;*/
-	/*background-position: center;*/
 }
 
 .contact {
@@ -55,15 +66,59 @@ div {
 	background-size: cover;
 }
 
+.project_content {
+	margin-bottom: 5em;
+}
+
 .project_left {
-	border: red 2px solid;
 	float: left;
 	margin: 0 0 20em 5em;
 	width: 45%;
 }
 
 .project_right {
-	border: green 2px solid;
+	float: left;
+	width: 42%;
+}
+
+#about_h1 {
+	margin-bottom: 3em;
+}
+
+#contact_left {
 	float: left;
 	width: 45%;
+}
+
+#contact_img {
+	background-image: url(../images/andy.jpg);
+	background-repeat: no-repeat;
+    background-position: 42%;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#contact_right {
+	float: left;
+	width: 42%;
+}
+
+#contact_info {
+	bottom: 0;
+	margin-top: .5em;
+	position: relative;
+}
+
+#bj_img {
+	width: 43em;
+}
+
+#cc_img {
+	width: 43em;
+}
+
+#portrait {
+	width: auto;
 }
