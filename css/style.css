@@ -22,15 +22,11 @@ body {
 
 h1{
 	color: #3B7BEA;
-	
-	/*color: #445878;*/
 	font-family: 'Abril Fatface', cursive;
 	font-size: 6.5em;
 }
 
 h3 {
-	/*color: #E85D53;*/
-	/*color: #9acd32;*/
 	color: #92CDCF;
 	font-family: 'Special Elite', cursive;
 	font-size: 5em;
@@ -102,6 +98,7 @@ p {
 }
 
 #airport {
+	color: #E9EAED;
 	margin-top: 1.5em;
 }
 
@@ -115,7 +112,7 @@ p {
 }
 
 #contact_img {
-	background-image: url(../images/andy.jpg);
+	background-image: url(../images/andy2.jpg);
 	background-repeat: no-repeat;
     background-position: 42%;
     margin-left: 24em;
