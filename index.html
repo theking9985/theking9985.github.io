@@ -9,6 +9,7 @@
 	
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.airport-1.1.source.js"></script>
 	<script src="https://cosde.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.5/vendors/jquery.slimscroll.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.js"></script>
@@ -18,33 +19,21 @@
 			$('#fullpage').fullpage({
 				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
 				scrollingSpeed: 700,
-				// sectionsColor: ['#8FB98B', '#DE564B', '#EAE1C0'],
 				slidesNavigation: true,
-				// menu: '#menu',
-				// sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
-				// anchors: ['firstPage', 'secondPage', '3rdPage'],
-				// navigation: true,
-				// navigationPosition: 'right',
-				// navigationTooltips: ['First page', 'Second page', 'Third page'],
-
 			});
+			$('#airport').airport(["AngularJS", "Node", "Express", "Ruby on Rails", "Javascript", "HTML", "CSS" ]);
 		});
 	</script>
 
 	<title>Andy Pham</title>
 </head>
 
-<body>
-<!-- 	<ul id="menu">
-		<a href="#firstPage"><li data-menuanchor="firstPage">Home</li></a>
-		<a href="#secondPage"><li data-menuanchor="secondPage">Projects</li></a>
-		<a href="#3rdPage"><li data-menuanchor="3rdPage">Contact me</li></a>
-	</ul> -->
-	
+<body>	
 	<div id="fullpage">
 
 	    <div class="about section" id="section0">
 	    	<h1 id="about_h1">Welcome to Andy Pham's page</h1>
+	    	<h3 id="airport"></h3>
 	    </div>
 	    <div class="project section" id="section1">
 	    	<h1 id="projectH1">Projects</h1>
@@ -52,13 +41,13 @@
 	    	<div class="slide"> 
 	    		<h3>Real Estate Game</h3>
 	    		<div class="project_left clearfix">
-	    			<img class="project_img" alt="Real Estate Game project" src="images/real_estate.png" />
+	    			<img class="project_img" alt="Real Estate project" title="Real Estate Game project" src="images/real_estate.png" />
 	    		</div>
 
 	    		<div class="project_right clearfix">
 		    		<p>Real Estate Game is a MEAN stack web application using MongoDB, AngularJS, Node, Express, Animate CSS, Sweet Alert, Bootstrap, Javascript, jQuery, HTML5 and CSS3.</p>
 		    		<p>User is given $1.000.000 to buy and sell houses. Random events occur affecting house price.</p>
-					<a href='https://regame.herokuapp.com/' target="_blank"><i class="fa fa-laptop fa-2x"></i></a>				
+					<a href='https://regame.herokuapp.com/' target="_blank"><i class="fa fa-laptop fa-2x"></i></a>		
 					<a href="https://github.com/theking9985/real_estate" target="_blank"> <i class="fa fa-github-square fa-2x"></i></a>
 	    		</div>
 	    	</div>
@@ -66,7 +55,7 @@
 	    	<div class="slide"> 
 	    		<h3>ParkIt</h3>
 	    		<div class="project_left clearfix">
-	    			<img class="project_img" alt="ParkIt project" src="images/parkit.png" />
+	    			<img class="project_img" alt="ParkIt project" title="ParkIt project" src="images/parkit.png" />
 	    		</div>
 
 	    		<div class="project_right clearfix">
@@ -80,7 +69,7 @@
 	    	<div class="slide"> 
 	    		<h3>Calories counter</h3>
 	    		<div class="project_left clearfix">
-	    			<img class="project_img" src="images/calories_counter.png" alt="Calories counter project" />
+	    			<img class="project_img" src="images/calories_counter.png" title ="Calories Counter project" alt="Calories counter project" />
 	    		</div>
 
 	    		<div class="project_right clearfix">
@@ -95,7 +84,7 @@
 	    	<div class="slide"> 
 	    		<h3>Blackjack</h3>
 		    		<div class="project_left clearfix">
-		    			<img class="project_img" alt="Blackjack project" src="images/blackjack.png" />
+		    			<img class="project_img" alt="Blackjack project" title="Blackjack project" src="images/blackjack.png" />
 		    		</div>
 
 		    		<div class="project_right clearfix">
@@ -121,8 +110,8 @@
 				</div>
 			</div>
 	    	<div id="contact_right" class="clearfix">
-	    		<p>I am an ambitious, goal-oriented and self-motivated junior web developer. I am fluent in both English and Vietnamese. My languages of choice are Javascript, Ruby on Rails and Node.js.</p>
-	    		<p>My experience as a casino supervisor/dealer and poker player have made me stronger in the area of math, management, patience, creativity, problem solving and technical skills. In my spare time, I like to play pingpong, poker, and read about stocks and investing.</p>
+	    		<p>I am an ambitious, goal-oriented and self-motivated junior web developer. I am fluent in both English and Vietnamese. My languages of choice are AngularJS, Node, Express, Javascript, Ruby on Rails, HTML5 and CSS3.</p>
+	    		<p>My experience as a casino supervisor/dealer and poker player have made me stronger in the area of math, management, patience, creativity, problem solving and technical skills. In my spare time, I like to play pingpong, poker and read about stocks and investing.</p>
 	    	</div>
 	    </div>
 	</div>
