@@ -27,7 +27,7 @@ h1{
 }
 
 h3 {
-	color: #92CDCF;
+	color: #E85D53;
 	font-family: 'Special Elite', cursive;
 	font-size: 5em;
 	position: relative;
@@ -112,7 +112,7 @@ p {
 }
 
 #contact_img {
-	background-image: url(../images/andy2.jpg);
+	background-image: url(../images/andy.jpg);
 	background-repeat: no-repeat;
     background-position: 42%;
     margin-left: 24em;
