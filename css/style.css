@@ -52,22 +52,30 @@ p {
 }
 
 .about {
-	background: url("../images/seattle2_2000.jpeg");
+	background: url("../images/seattle2.jpeg");
 	background-size: cover;
 }
 
 .contact {
-	background: url("../images/night2_2000.jpeg");
+	background: url("../images/night3.jpeg");
 	background-size: cover;
 }
 
+.fa-2x {
+	font-size: 3em;
+}
+
 .project {
-	background: url("../images/sea1_2000.jpeg");
+	background: url("../images/night2.jpeg");
 	background-size: cover;
 }
 
 .project_content {
 	margin-bottom: 5em;
+}
+
+.project_img {
+	width: 43em;
 }
 
 .project_left {
@@ -109,16 +117,4 @@ p {
 	bottom: 0;
 	margin-top: .5em;
 	position: relative;
-}
-
-#bj_img {
-	width: 43em;
-}
-
-#cc_img {
-	width: 43em;
-}
-
-#portrait {
-	width: auto;
 }
