@@ -19,7 +19,6 @@ body {
 	text-align: center;
 }
 
-
 h1{
 	color: #3B7BEA;
 	font-family: 'Abril Fatface', cursive;
@@ -30,8 +29,6 @@ h3 {
 	color: #E85D53;
 	font-family: 'Special Elite', cursive;
 	font-size: 5em;
-	position: relative;
-	top: -6%;
 }
 
 a {
@@ -83,35 +80,45 @@ p {
 	margin-bottom: 5em;
 }
 
+.project_h3 {
+	margin-top: -5em;
+}
+
 .project_img {
 	width: 43em;
 }
 
+.project_main {
+	margin: 2em auto;
+	height: 40%;
+}
+
 .project_left {
 	float: left;
-	margin: 0 0 20em 5em;
+	margin-left: 8em;
 	width: 45%;
 }
 
 .project_right {
 	float: left;
-	width: 42%;
+	width: 40%;
 }
 
 #about_h1 {
-	margin-top: -3em;
+	margin-top: -2em;
 }
 
 #airport {
-	margin-top: 1.5em;
+	margin-top: .5em;
 }
 
 #bj_h3 {
-	margin-top: 1em;
+	margin-top: -4.7em;
 }
 
 #contact_left {
 	float: left;
+	margin-left: 3em;
 	width: 45%;
 }
 
@@ -123,7 +130,7 @@ p {
 	background-image: url(../images/andy.jpg);
 	background-repeat: no-repeat;
     background-position: 42%;
-    margin-left: 24em;
+    margin: 0 auto;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -136,9 +143,47 @@ p {
 
 #contact_info {
 	display: inline-block;
-	margin: .5em 0 0 10em;
+	margin: 0 auto;
 }
 
 #project_h1 {
-	padding-top: 1em;
+	padding-top: .7em;
+}
+
+@media only screen and (max-width: 645px) {
+	h1 {
+		font-size: 5.5em;
+	}
+
+	p {
+		font-size: 1.5em;
+	}
+
+	.project_h3 {
+		font-size: 3.5em;
+	}
+
+	.project_left, .project_right {
+		float: none;
+	}
+
+	.project_left {
+		margin: 2em auto;
+		width: 100%;
+	}
+
+	.project_right {
+		margin: 0 auto;
+		width: 75%;
+	}
+
+	#project_h1 {
+		display: none;
+	}
+
+
+
+	/*#contact_left, #contact_right {
+		display: block;
+	}*/
 }
