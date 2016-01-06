@@ -34,6 +34,10 @@ h3 {
 	top: -6%;
 }
 
+a {
+	color: red;
+}
+
 i {
 	color: #3B7BEA;
 	margin: .1em;
@@ -43,8 +47,9 @@ img {
 	color: #E9EAED;
 }
 
-a {
-	color: red;
+#menu li {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
 }
 
 p {
@@ -98,8 +103,11 @@ p {
 }
 
 #airport {
-
 	margin-top: 1.5em;
+}
+
+#bj_h3 {
+	margin-top: 1em;
 }
 
 #contact_left {
@@ -129,4 +137,8 @@ p {
 #contact_info {
 	display: inline-block;
 	margin: .5em 0 0 10em;
+}
+
+#project_h1 {
+	padding-top: 1em;
 }
