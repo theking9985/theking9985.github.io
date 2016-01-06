@@ -2,7 +2,6 @@
 <html>
 <head>
 
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/examples.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -20,6 +19,13 @@
 				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
 				scrollingSpeed: 700,
 				slidesNavigation: true,
+				menu: '#menu',
+				anchors: ['firstPage', 'secondPage', '3rdPage'],
+
+				// sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
+				// navigation: true,
+				// navigationPosition: 'right',
+				// navigationTooltips: ['First page', 'Second page', 'Third page'],
 			});
 			$('#airport').airport(["Web Developer"]);
 		});
@@ -29,6 +35,13 @@
 </head>
 
 <body>	
+
+	<ul id="menu">
+ 		<a href="#firstPage"><li data-menuanchor="firstPage">Home</li></a>
+ 		<a href="#secondPage"><li data-menuanchor="secondPage">Projects</li></a>
+ 		<a href="#3rdPage"><li data-menuanchor="3rdPage">Contact me</li></a>
+ 	</ul>
+
 	<div id="fullpage">
 
 	    <div class="about section" id="section0">
@@ -61,7 +74,7 @@
 	    		<div class="project_right clearfix">
 		    		<p>ParkIt is a full stack web application using Ruby on Rails, Google API, Stripe API, PostgreSQL, SQL, Bootstrap, Javascript, jQuery, HTML5 and CSS3.</p>
 		    		<p>User can rent a parking spot from someone or make money by renting out their own parking spot.</p>
-		    		<a href='http://parkit-ateam.herokuapp.com/' target="_blank"><i class="fa fa-laptop fa-2x"></i></a>				
+		    		<a href='http://parkit-ateam.herokuapp.com/' target="_blank"><i class="fa fa-laptop fa-2x"></i></a>		
 					<a href="https://github.com/theking9985/ParkIt" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
 	    		</div>
 	    	</div>
