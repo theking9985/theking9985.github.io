@@ -396,6 +396,20 @@ p {
 	}
 }
 
+@media only screen and (max-width: 375px) {
+	#menu li a {
+		padding: 0;
+	}
+
+	.project_img {
+		width: 22em;
+	}
+
+	.project_h3 {
+		font-size: 2.5em;
+	}
+}
+
 @media only screen and (max-width: 360px) {
 	#menu li a {
 		padding: 0;
