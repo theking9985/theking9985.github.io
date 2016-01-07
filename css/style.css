@@ -391,9 +391,9 @@ p {
 }
 
 @media only screen and (max-width: 375px) {
-	#menu li a {
+/*	#menu li a {
 		padding: 0 10px;
-	}
+	}*/
 
 	.project_img {
 		width: 22em;
@@ -409,9 +409,9 @@ p {
 }
 
 @media only screen and (max-width: 360px) {
-	#menu li a {
+/*	#menu li a {
 		padding: 0;
-	}
+	}*/
 
 	.project_img {
 		width: 20em;
@@ -424,7 +424,7 @@ p {
 
 @media only screen and (max-width: 320px) {
 	#menu li a {
-		padding: 0;
+		padding: 0 10px;
 	}
 
 	#menu li {
