@@ -297,6 +297,14 @@ p {
 			margin-top: 1em;
 		}
 
+		.project_bj_main {
+			margin-bottom: 11em;
+		}
+
+		.fa-2x {
+			color: green;
+		}
+
 		#contact_img {
 			background-image: url(../images/andy_small.jpg);
 		    border-radius: 50%;
@@ -305,7 +313,7 @@ p {
 		}
 	}
 
-	@media only screen and (max-height: 611px) {
+	@media only screen and (max-height: 615px) {
 		#menu li a {
 			padding: 0 18px;
 			display: inline-block;
