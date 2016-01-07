@@ -259,12 +259,6 @@ p {
 	}
 }
 
-@media only screen and (max-width: 545px) {
-	.project_img {
-		width: 25em;
-	}
-}
-
 @media only screen and (max-width: 420px) {
 	#menu li a {
 		padding: 0 10px;
@@ -297,12 +291,12 @@ p {
 			margin-top: 1em;
 		}
 
-		.project_bj_main {
+		/*.project_bj_main {
 			margin-bottom: 11em;
-		}
+		}*/
 
 		.fa-2x {
-			color: green;
+			color: yellow;
 		}
 
 		#contact_img {
@@ -324,12 +318,12 @@ p {
 			margin-top: 0;
 		}
 
-		.project_bj_main {
+		/*.project_bj_main {
 			margin-bottom: 11em;
-		}
+		}*/
 
 		.fa-2x {
-			color: red;
+			color: pink;
 		}
 	}
 
