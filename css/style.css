@@ -266,6 +266,10 @@ p {
 }
 
 @media only screen and (max-width: 420px) {
+	#menu li a {
+		padding: 0 10px;
+	}
+
 	.project_img {
 		width: 24em;
 	}
@@ -280,7 +284,7 @@ p {
 		}
 	}
 
-	@media only screen and (max-height: 625px) {
+	@media only screen and (max-height: 627px) {
 		#about_h1 {
 			font-size: 4em;
 		}
@@ -389,5 +393,41 @@ p {
 		#contact_right {
 			height: 52%;
 		}
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	#menu li a {
+		padding: 0;
+	}
+
+	.project_img {
+		width: 20em;
+	}
+
+	.project_h3 {
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#menu li a {
+		padding: 0;
+	}
+
+	#menu li {
+		font-size: 1.1em;
+	}
+
+	.project_img {
+		width: 17em;
+	}
+
+	.project_h3 {
+		font-size: 2.5em;
+	}
+
+	.project_right {
+		width: 65%;
 	}
 }
