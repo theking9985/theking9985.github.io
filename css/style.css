@@ -418,6 +418,14 @@ p {
 	.project_h3 {
 		font-size: 2.5em;
 	}
+
+	.project_main {
+		margin-bottom: 10em;
+	}
+
+	.fa-2x {
+		color: red;
+	}
 }
 
 @media only screen and (max-width: 360px) {
