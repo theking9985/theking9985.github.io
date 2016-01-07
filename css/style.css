@@ -36,6 +36,10 @@ a {
 	color: red;
 }
 
+a :active {
+	color: #01FF02;
+}
+
 i {
 	color: #3B7BEA;
 	margin: .1em;
@@ -391,9 +395,9 @@ p {
 }
 
 @media only screen and (max-width: 375px) {
-/*	#menu li a {
+	#menu li a {
 		padding: 0 10px;
-	}*/
+	}
 
 	.project_img {
 		width: 22em;
@@ -409,9 +413,9 @@ p {
 }
 
 @media only screen and (max-width: 360px) {
-/*	#menu li a {
-		padding: 0;
-	}*/
+	#menu li a {
+		padding: 0 10px;
+	}
 
 	.project_img {
 		width: 20em;
