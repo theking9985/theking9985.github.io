@@ -40,6 +40,10 @@ a :active {
 	color: #01FF02;
 }
 
+a :hover {
+	color: #E9EAED;
+}
+
 i {
 	color: #3B7BEA;
 	margin: .1em;
@@ -52,6 +56,10 @@ img {
 #menu li {
 	font-family: 'Playfair Display', serif;
 	font-size: 1.5em;
+}
+
+#menu li :active {
+	color: #01FF02;	
 }
 
 p {
