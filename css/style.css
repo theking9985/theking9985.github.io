@@ -297,6 +297,10 @@ p {
 			margin-top: 1em;
 		}
 
+		.project_bj_main {
+			margin-bottom: 5em;
+		}
+
 		#contact_img {
 			background-image: url(../images/andy_small.jpg);
 		    border-radius: 50%;
