@@ -291,14 +291,6 @@ p {
 			margin-top: 1em;
 		}
 
-		/*.project_bj_main {
-			margin-bottom: 11em;
-		}*/
-
-		.fa-2x {
-			color: yellow;
-		}
-
 		#contact_img {
 			background-image: url(../images/andy_small.jpg);
 		    border-radius: 50%;
@@ -312,19 +304,11 @@ p {
 			padding: 0 18px;
 			display: inline-block;
 		}
-
+/*
 		.project_main {
 			margin-bottom: 20em;
 			margin-top: 0;
-		}
-
-		/*.project_bj_main {
-			margin-bottom: 11em;
 		}*/
-
-		.fa-2x {
-			color: pink;
-		}
 	}
 
 	@media only screen and (max-height: 580px) {
@@ -421,10 +405,6 @@ p {
 
 	.project_main {
 		margin-bottom: 10em;
-	}
-
-	.fa-2x {
-		color: red;
 	}
 }
 
