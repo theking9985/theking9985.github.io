@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Special+Elite);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
@@ -64,7 +65,8 @@ img {
 
 p {
 	color: #E9EAED;
-	font-family: 'Playfair Display', serif;
+	/*font-family: 'Playfair Display', serif;*/
+	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	line-height: 1.5em;
 	text-align: justify;
